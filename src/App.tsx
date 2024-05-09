@@ -1,8 +1,10 @@
 import './App.scss'
+import useRouterElements from './useRouterElements'
 const App = () => {
+  const routeElemnts = useRouterElements()
   return (
     <>
-      <div>App</div>
+      <div>{routeElemnts}</div>
     </>
   )
 }
